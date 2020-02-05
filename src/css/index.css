@@ -159,10 +159,15 @@ header {
 }
 .set-btn:hover{
     background: lightslategrey;
+    color: #193541;
 }
 .msg {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+}
+.msg:nth-child(even) {
+    background: beige;
 }
 .msgid{
     font-weight: bold;
@@ -186,5 +191,8 @@ header {
     justify-content: space-around;
 }
 #outputEditor{
-    padding: 20px;
+    
+}
+svg .lines{
+    stroke: #173140;
 }

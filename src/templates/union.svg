@@ -1,0 +1,8 @@
+<svg viewBox="0 0 324 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="108" cy="108" r="108" fill="currentColor"/>
+    <circle cx="216" cy="108" r="108" fill="currentColor" />
+    <g class="lines">
+        <circle cx="108" cy="108" r="106" stroke-width="4"/>
+        <circle cx="216" cy="108" r="106" stroke-width="4"/>
+    </g>
+</svg>
