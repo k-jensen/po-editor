@@ -1,1 +1,37 @@
-<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.32.0/codemirror.min.css"></head><body><div class="container"><header><h1>Po Editor</h1></header><section class="po1"><h2>Po A</h2><textarea id="po1Raw"></textarea><div class="download"><input id="po1Filename" type="text" placeholder="po1" value="po1"><span>.po</span><button id="po1Download">Download</button></div></section><section class="output"><div class="controls"><button class="set-btn" id="union">Union</button><button class="set-btn" id="intersection">Intersection</button><button class="set-btn" id="symmetricDifference">Symmetric Difference</button><button class="set-btn" id="difference">Difference</button></div><h2 id="output"></h2><div class="outputList"><div class="outputList__header"><div>msgid</div><div>msgstr</div></div><div id="outputEditor"></div></div></section><section class="po2"><h2>Po B</h2><textarea id="po2Raw"></textarea><div class="download"><input id="po2Filename" type="text" placeholder="po2" value="po2"><span>.po</span><button id="po2Download">Download</button></div></section></div><script type="text/javascript" src="bundle.js"></script></body></html>
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.32.0/codemirror.min.css"></head><body><div class="container"><header><h1>Po Editor</h1></header><section class="po1"><h2>Po A</h2><textarea id="po1Raw"></textarea><div class="download"><input id="po1Filename" type="text" placeholder="po1" value="po1"><span>.po</span><button id="po1Download">Download</button></div></section><section class="output"><div class="controls"><button class="set-btn" id="union"><svg viewBox="0 0 324 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="108" cy="108" r="108" fill="currentColor"/>
+    <circle cx="216" cy="108" r="108" fill="currentColor" />
+    <g class="lines">
+        <circle cx="108" cy="108" r="106" stroke-width="4"/>
+        <circle cx="216" cy="108" r="106" stroke-width="4"/>
+    </g>
+</svg>
+</button><button class="set-btn" id="intersection"><svg viewBox="0 0 324 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+        <g id="bg">
+            <path id="Vector" d="M162 14.4485C129.719 33.1222 108 68.0247 108 108C108 147.975 129.719 182.878 162 201.552C194.281 182.878 216 147.975 216 108C216 68.0247 194.281 33.1222 162 14.4485Z" fill="currentColor"/>
+        </g>
+        <g class="lines">
+            <circle id="Ellipse 1" cx="108" cy="108" r="106" stroke-width="4"/>
+            <circle id="Ellipse 2" cx="216" cy="108" r="106" stroke-width="4"/>
+        </g>
+
+</svg>
+</button><button class="set-btn" id="symmetricDifference"><svg viewBox="0 0 324 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M108 216C127.672 216 146.115 210.741 162 201.552C129.719 182.878 108 147.975 108 108C108 68.0247 129.719 33.1222 162 14.4485C146.115 5.25929 127.672 0 108 0C48.3532 0 0 48.3532 0 108C0 167.647 48.3532 216 108 216Z" fill="currentColor"/>
+<path d="M216 216C275.647 216 324 167.647 324 108C324 48.3532 275.647 0 216 0C196.328 0 177.885 5.25929 162 14.4485C194.281 33.1222 216 68.0247 216 108C216 147.975 194.281 182.878 162 201.552C177.885 210.741 196.328 216 216 216Z" fill="currentColor"/>
+<g class="lines">
+    <circle cx="108" cy="108" r="106" stroke="#08775C" stroke-width="4"/>
+    <circle cx="216" cy="108" r="106" stroke="#08775C" stroke-width="4"/>
+</g>
+</svg>
+</button><button class="set-btn" id="difference"><svg viewBox="0 0 324 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g>
+    <path id="bg" fill-rule="evenodd" clip-rule="evenodd" d="M108 216C127.672 216 146.115 210.741 162 201.552C129.719 182.878 108 147.975 108 108C108 68.0247 129.719 33.1222 162 14.4485C146.115 5.25929 127.672 0 108 0C48.3532 0 0 48.3532 0 108C0 167.647 48.3532 216 108 216Z" fill="currentColor"/>
+<g class="lines">
+<circle id="Ellipse 1" cx="108" cy="108" r="106" stroke-width="4"/>
+<circle id="Ellipse 2" cx="216" cy="108" r="106" stroke-width="4"/>
+</g>
+</g>
+</svg>
+</button></div><h2 id="output"></h2><div class="outputList"><div class="outputList__header"><div>msgid</div><div>msgstr</div></div><div id="outputEditor"></div></div></section><section class="po2"><h2>Po B</h2><textarea id="po2Raw"></textarea><div class="download"><input id="po2Filename" type="text" placeholder="po2" value="po2"><span>.po</span><button id="po2Download">Download</button></div></section></div><script type="text/javascript" src="bundle.js"></script></body></html>
