@@ -1,5 +1,6 @@
 import { saveAs } from 'file-saver';
 import Editor from './js/editor.js';
+import Controls from './js/controls.js';
 import styles from './css/index.css';
 
 let defaults = {
@@ -66,3 +67,5 @@ function handleClick(event) {
     saveAs(blob, filename);
   }
 }
+
+let controls = new Controls(po1Editor, po2Editor);

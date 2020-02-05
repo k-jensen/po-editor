@@ -44,6 +44,14 @@ export default class Editor {
         console.log('text saved')
     }
 
+    saveText(){
+      this.editor.save();
+    }
+
+    getValue(){
+      return this.editor.getValue();
+    }
+
     
 
     updateHints(){
