@@ -4,8 +4,8 @@
             <path id="Vector" d="M162 14.4485C129.719 33.1222 108 68.0247 108 108C108 147.975 129.719 182.878 162 201.552C194.281 182.878 216 147.975 216 108C216 68.0247 194.281 33.1222 162 14.4485Z" fill="currentColor"/>
         </g>
         <g class="lines">
-            <circle id="Ellipse 1" cx="108" cy="108" r="106" stroke-width="4"/>
-            <circle id="Ellipse 2" cx="216" cy="108" r="106" stroke-width="4"/>
+            <circle id="Ellipse 1" cx="108" cy="108" r="106" stroke-width="6"/>
+            <circle id="Ellipse 2" cx="216" cy="108" r="106" stroke-width="6"/>
         </g>
 
 </svg>

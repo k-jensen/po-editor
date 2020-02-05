@@ -2,8 +2,8 @@
 <g>
     <path id="bg" fill-rule="evenodd" clip-rule="evenodd" d="M108 216C127.672 216 146.115 210.741 162 201.552C129.719 182.878 108 147.975 108 108C108 68.0247 129.719 33.1222 162 14.4485C146.115 5.25929 127.672 0 108 0C48.3532 0 0 48.3532 0 108C0 167.647 48.3532 216 108 216Z" fill="currentColor"/>
 <g class="lines">
-<circle id="Ellipse 1" cx="108" cy="108" r="106" stroke-width="4"/>
-<circle id="Ellipse 2" cx="216" cy="108" r="106" stroke-width="4"/>
+<circle id="Ellipse 1" cx="108" cy="108" r="106" stroke-width="6"/>
+<circle id="Ellipse 2" cx="216" cy="108" r="106" stroke-width="6"/>
 </g>
 </g>
 </svg>

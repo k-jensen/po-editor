@@ -2,7 +2,7 @@
     <circle cx="108" cy="108" r="108" fill="currentColor"/>
     <circle cx="216" cy="108" r="108" fill="currentColor" />
     <g class="lines">
-        <circle cx="108" cy="108" r="106" stroke-width="4"/>
-        <circle cx="216" cy="108" r="106" stroke-width="4"/>
+        <circle cx="108" cy="108" r="106" stroke-width="6"/>
+        <circle cx="216" cy="108" r="106" stroke-width="6"/>
     </g>
 </svg>

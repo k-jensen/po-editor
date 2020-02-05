@@ -148,19 +148,20 @@ header {
 .set-btn {
     flex: 1;
     border: 1px solid transparent;
-    padding: 10px;
-    background: #355050;
-    color: white;
+    padding: 30px;
+    background: transparent;
+    color: #193541;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     margin: 5px;
     /* box-shadow: 0 0 5px rgba(0,0,0,.3); */
 }
-.set-btn:hover{
-    background: lightslategrey;
-    color: #193541;
+.set-btn:hover {
+    color: white;
+    background: rgba(0,0,0,.3);
 }
+
 .msg {
     display: flex;
     justify-content: space-between;
