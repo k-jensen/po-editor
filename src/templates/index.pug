@@ -1,0 +1,32 @@
+html
+    head
+        title= title
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.32.0/codemirror.min.css")
+    body
+        .container
+            header
+                h1 Po Editor
+                p Something meaningful
+
+            section.po1
+                h2 Po 1
+                textarea#po1Raw
+                .download
+                    input#po1Filename(type="text" placeholder="po1" value="po1")
+                    span .po
+                    button#po1Download Download
+               
+            section.output
+                .controls
+                    button.union Union
+                    button.intersection Intersection
+                    button.symmetricDifference Symmetric Difference
+                    button.difference Difference
+                
+            section.po2
+                h2 Po 2
+                textarea#po2Raw
+                .download
+                    input#po2Filename(type="text" placeholder="po2" value="po2")
+                    span .po
+                    button#po2Download Download
