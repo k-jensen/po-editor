@@ -3,8 +3,8 @@ import Editor from './js/editor.js';
 import styles from './css/index.css';
 
 let defaults = {
-  po1 : '/assets/po1.po',
-  po2 : '/assets/po2.po',
+  po1 : './assets/po1.po',
+  po2 : './assets/po2.po',
 }
 
 let po1Raw = document.getElementById('po1Raw');
