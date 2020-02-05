@@ -5,3 +5,7 @@ msgstr "I am in both"
 #: /app/modules/views
 msgid "only A"
 msgstr "only A"
+
+#: /app/modules/views
+msgid "Same id, different str"
+msgstr "Message from A"

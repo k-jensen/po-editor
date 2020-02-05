@@ -1,14 +1,17 @@
 import gettextParser from 'gettext-parser';
 
 let output = document.getElementById('output');
+let outputEditor = document.getElementById('outputEditor');
+let po1Translations = '';
+let po2Translations = '';
 
 function getPoSets(po1, po2){
 
     let po1Parsed = gettextParser.po.parse(po1.getValue());
     let po2Parsed = gettextParser.po.parse(po2.getValue());
 
-    let po1Translations = po1Parsed.translations[''];
-    let po2Translations = po2Parsed.translations[''];
+    po1Translations = po1Parsed.translations[''];
+    po2Translations = po2Parsed.translations[''];
 
     let po1Arr = Object.keys(po1Translations)
     let po2Arr = Object.keys(po2Translations)
@@ -27,17 +30,35 @@ function getPoSets(po1, po2){
 
 function updateOutput(type, size, set){
     output.textContent = '';
+    outputEditor.textContent = '';
 
     let p = document.createElement('p');
     p.textContent = type + ': ' + size;
 
-    let list = document.createElement('ul');
+    let newParts = [];
 
     for(let key of set.keys()){
-        let li = document.createElement('li');
-        li.textContent = key;
-        list.appendChild(li)
+
+        let value1 = po1Translations[`${key}`];
+        let value2 = po2Translations[`${key}`];
+        let value = value1 ? value1 : value2;
+        newParts.push(value)
+
     }
+    newParts.forEach(part => {
+        let div = document.createElement('div');
+        div.classList.add('msg')
+        let msgid = document.createElement('div');
+        msgid.classList.add('msgid')
+        let msgstr = document.createElement('div');
+        msgstr.classList.add('msgstr')
+        msgid.textContent = part.msgid;
+        msgstr.textContent = part.msgstr;
+        div.appendChild(msgid)
+        div.appendChild(msgstr)
+        
+        outputEditor.append(div);
+    })
 
     output.append(p)
     output.append(list)

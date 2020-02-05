@@ -146,3 +146,30 @@ header {
     display: flex;
     flex-direction: column;
 }
+.msg {
+    display: flex;
+    justify-content: space-between;
+}
+.msgid{
+    font-weight: bold;
+}
+.msgid, .msgstr{
+    flex: 1;
+}
+
+.outputList{
+    margin: 20px;
+    background: white;
+    color: #212121;
+}
+
+.outputList__header {
+    background: black;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#outputEditor{
+    padding: 20px;
+}
