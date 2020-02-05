@@ -9,7 +9,7 @@ html
                 p Something meaningful
 
             section.po1
-                h2 Po 1
+                h2 Po A
                 textarea#po1Raw
                 .download
                     input#po1Filename(type="text" placeholder="po1" value="po1")
@@ -17,15 +17,15 @@ html
                     button#po1Download Download
                
             section.output
-                #output(contenteditable)
                 .controls
                     button#union.set-btn Union
                     button#intersection.set-btn Intersection
                     button#symmetricDifference.set-btn Symmetric Difference
                     button#difference.set-btn Difference
+                #output(contenteditable)
                 
             section.po2
-                h2 Po 2
+                h2 Po B
                 textarea#po2Raw
                 .download
                     input#po2Filename(type="text" placeholder="po2" value="po2")

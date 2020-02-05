@@ -24,7 +24,7 @@ header h1{
 .container{
     display: grid;
     height: 100vh;
-    grid-template-columns: 40% auto 40%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 85px auto;
     grid-template-areas:
         "po1 header po2"
@@ -43,7 +43,6 @@ header {
 }
 .output{
     grid-area: output;
-    margin: auto;
 }
 
 .po1, .po2{
